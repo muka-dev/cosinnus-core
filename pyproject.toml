@@ -17,7 +17,10 @@ classifiers = [
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Framework :: Django",
 ]
 dependencies = [
@@ -133,6 +136,7 @@ packages = [
     "cosinnus_event",
     "cosinnus_exchange",
     "cosinnus_file",
+    "cosinnus_frontend",
     "cosinnus_marketplace",
     "cosinnus_message",
     "cosinnus_note",
@@ -142,6 +146,7 @@ packages = [
     "cosinnus_poll",
     "cosinnus_stream",
     "cosinnus_todo",
+    "locale",
     "postman",
     "rest_framework_rdf",
     "suit_overextends",
