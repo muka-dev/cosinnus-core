@@ -37,3 +37,6 @@ cosinnus_conference/static/conference/
 .venv/
 uv.lock
 .python-version
+
+# Generated documentation
+docs/ref/
