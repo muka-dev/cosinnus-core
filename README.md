@@ -20,6 +20,43 @@ You'd like to contribute a bug fix or feature for wechange? Great! These are the
 * An autodoc code documentation can be found here: https://wechange.de/docs/refs/modules.html
 
 
+### Development Setup with uv
+
+This project uses [uv](https://github.com/astral-sh/uv) for fast, reliable Python package management.
+
+#### Installing uv
+
+```bash
+pip install uv
+```
+
+#### Common Commands
+
+```bash
+# Install dependencies
+uv sync
+
+# Run a command in the virtual environment
+uv run python manage.py <command>
+
+# Run Python scripts
+uv run python -m <module>
+
+# Add a new dependency
+uv add <package-name>
+
+# Build the package
+uv build
+
+# Activate the virtual environment (optional)
+source .venv/bin/activate
+```
+
+#### Backwards Compatibility
+
+The `setup.py` file is still present for backwards compatibility with older tools and workflows.
+
+
 ### Overview of the branches for cosinnus-core
 
 As we are currently still working on logistical and architectural changes for the large wechange Redesign, the branch structure of this repository is in a state of changing over from the legacy state. As such, the `main` branch is not the branch for the most recent changes during this period. 
